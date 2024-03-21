@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en-US" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-beta.66" />
+    <meta name="theme" content="VuePress Theme Hope" />
+    <meta property="og:url" content="https://mihu03.github.io/demo/disable.html"><meta property="og:site_name" content="MiTA 2024"><meta property="og:title" content="Disabling layout and features"><meta property="og:description" content="You can disable some function and layout on the page by setting the Frontmatter of the page. This page is an demo that disables the following features: Navbar; Sidebar; Breadcru..."><meta property="og:type" content="article"><meta property="og:locale" content="en-US"><meta property="article:author" content="Mr.Tong"><meta property="article:tag" content="disable"><script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Disabling layout and features","image":[""],"dateModified":null,"author":[{"@type":"Person","name":"Mr.Tong","url":"https://mihu03.github.io"}]}</script><link rel="icon" href="/logo.png"><title>Disabling layout and features | MiTA 2024</title><meta name="description" content="You can disable some function and layout on the page by setting the Frontmatter of the page. This page is an demo that disables the following features: Navbar; Sidebar; Breadcru...">
+    <style>
+      :root {
+        --bg-color: #fff;
+      }
+
+      html[data-theme="dark"] {
+        --bg-color: #1d1e1f;
+      }
+
+      html,
+      body {
+        background: var(--bg-color);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem("vuepress-theme-hope-scheme");
+      const systemDarkMode =
+        window.matchMedia &&
+        window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+      if (userMode === "dark" || (userMode !== "light" && systemDarkMode)) {
+        document.documentElement.setAttribute("data-theme", "dark");
+      }
+    </script>
+    <link rel="preload" href="/assets/style-28e09f51.css" as="style"><link rel="stylesheet" href="/assets/style-28e09f51.css">
+    <link rel="modulepreload" href="/assets/app-459071b1.js"><link rel="modulepreload" href="/assets/disable.html-3078cdb9.js"><link rel="modulepreload" href="/assets/plugin-vue_export-helper-c27b6911.js"><link rel="modulepreload" href="/assets/disable.html-a710ee13.js"><link rel="prefetch" href="/assets/index.html-edebd146.js" as="script"><link rel="prefetch" href="/assets/slides.html-f16dfc5e.js" as="script"><link rel="prefetch" href="/assets/index.html-c5798d37.js" as="script"><link rel="prefetch" href="/assets/index.html-067eec96.js" as="script"><link rel="prefetch" href="/assets/index.html-5943bedc.js" as="script"><link rel="prefetch" href="/assets/encrypt.html-3d24ce1a.js" as="script"><link rel="prefetch" href="/assets/markdown.html-b34e67ec.js" as="script"><link rel="prefetch" href="/assets/page.html-bf17380e.js" as="script"><link rel="prefetch" href="/assets/index.html-90633501.js" as="script"><link rel="prefetch" href="/assets/index.html-f53c6a34.js" as="script"><link rel="prefetch" href="/assets/index.html-dcf21099.js" as="script"><link rel="prefetch" href="/assets/index.html-3fbaf53e.js" as="script"><link rel="prefetch" href="/assets/index.html-505cc9a1.js" as="script"><link rel="prefetch" href="/assets/index.html-609b2114.js" as="script"><link rel="prefetch" href="/assets/index.html-15389f46.js" as="script"><link rel="prefetch" href="/assets/index.html-cc0087bd.js" as="script"><link rel="prefetch" href="/assets/index.html-f31a3865.js" as="script"><link rel="prefetch" href="/assets/baz.html-cbcf8af9.js" as="script"><link rel="prefetch" href="/assets/index.html-6e2248e8.js" as="script"><link rel="prefetch" href="/assets/ray.html-f5518e8a.js" as="script"><link rel="prefetch" href="/assets/index.html-23b2b50f.js" as="script"><link rel="prefetch" href="/assets/404.html-09fa567a.js" as="script"><link rel="prefetch" href="/assets/index.html-28ac27e0.js" as="script"><link rel="prefetch" href="/assets/slides.html-0032560d.js" as="script"><link rel="prefetch" href="/assets/index.html-c71bf259.js" as="script"><link rel="prefetch" href="/assets/index.html-e0036e21.js" as="script"><link rel="prefetch" href="/assets/index.html-36d18d35.js" as="script"><link rel="prefetch" href="/assets/encrypt.html-997ffd5b.js" as="script"><link rel="prefetch" href="/assets/markdown.html-44a8586a.js" as="script"><link rel="prefetch" href="/assets/page.html-a11a78eb.js" as="script"><link rel="prefetch" href="/assets/index.html-8af4e171.js" as="script"><link rel="prefetch" href="/assets/index.html-dfaac949.js" as="script"><link rel="prefetch" href="/assets/index.html-8631559b.js" as="script"><link rel="prefetch" href="/assets/index.html-450427fe.js" as="script"><link rel="prefetch" href="/assets/index.html-eb0b78e6.js" as="script"><link rel="prefetch" href="/assets/index.html-91fbf5cd.js" as="script"><link rel="prefetch" href="/assets/index.html-d3e3208c.js" as="script"><link rel="prefetch" href="/assets/index.html-04708056.js" as="script"><link rel="prefetch" href="/assets/index.html-6eb673ed.js" as="script"><link rel="prefetch" href="/assets/baz.html-0fa8a20f.js" as="script"><link rel="prefetch" href="/assets/index.html-cbdea7f5.js" as="script"><link rel="prefetch" href="/assets/ray.html-fc3e93d0.js" as="script"><link rel="prefetch" href="/assets/index.html-69d7d76f.js" as="script"><link rel="prefetch" href="/assets/404.html-f92b1873.js" as="script"><link rel="prefetch" href="/assets/auto-fa8841cf.js" as="script"><link rel="prefetch" href="/assets/index-2bf332f6.js" as="script"><link rel="prefetch" href="/assets/flowchart-c441f34d.js" as="script"><link rel="prefetch" href="/assets/mermaid.core-fc5f1e85.js" as="script"><link rel="prefetch" href="/assets/highlight.esm-75b11b9d.js" as="script"><link rel="prefetch" href="/assets/markdown.esm-abe06b83.js" as="script"><link rel="prefetch" href="/assets/math.esm-70a288c8.js" as="script"><link rel="prefetch" href="/assets/notes.esm-a106bb2c.js" as="script"><link rel="prefetch" href="/assets/reveal.esm-ec5549c1.js" as="script"><link rel="prefetch" href="/assets/search.esm-7e6792e2.js" as="script"><link rel="prefetch" href="/assets/zoom.esm-b83b91d0.js" as="script"><link rel="prefetch" href="/assets/VuePlayground-bffb02ca.js" as="script"><link rel="prefetch" href="/assets/photoswipe.esm-5794cde2.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><!--[--><!--[--><span tabindex="-1"></span><a href="#main-content" class="vp-skip-link sr-only">Skip to main content</a><!--]--><div class="theme-container no-navbar no-sidebar has-toc"><!----><!----><div class="toggle-sidebar-wrapper"><span class="arrow start"></span></div><aside id="sidebar" class="vp-sidebar"><!--[--><!----><!--]--><ul class="vp-sidebar-links"></ul><!--[--><!----><!--]--></aside><!--[--><main id="main-content" class="vp-page"><!--[--><!----><!----><nav class="vp-breadcrumb disable"></nav><div class="vp-page-title"><h1><span class="font-icon icon iconfont icon-gears" style=""></span>Disabling layout and features</h1><!----><hr></div><!----><!----><div class="theme-hope-content"><p>You can disable some function and layout on the page by setting the Frontmatter of the page.</p><!-- more --><p>This page is an demo that disables the following features:</p><ul><li>Navbar</li><li>Sidebar</li><li>Breadcrumb</li><li>Page information</li><li>Contributors</li><li>Edit link</li><li>Update time</li><li>Prev/Next link</li><li>Comment</li><li>Footer</li><li>Back to top button</li></ul></div><!----><footer class="page-meta"><!----><div class="meta-item git-info"><!----><!----></div></footer><!----><!----><!----><!--]--></main><!--]--><!----></div><!--]--><!----><!--[--><!--]--><!--]--></div>
+    <script type="module" src="/assets/app-459071b1.js" defer></script>
+  </body>
+</html>
