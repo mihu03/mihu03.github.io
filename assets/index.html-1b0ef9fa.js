@@ -1,0 +1,1 @@
+import{_ as o}from"./plugin-vue_export-helper-c27b6911.js";import{r as t,o as n,c as r,b as c}from"./app-0e8675f6.js";const _={};function s(a,l){const e=t("PDF");return n(),r("div",null,[c(e,{url:"./CFP-MiTA2024.pdf","no-toolbar":"",height:"1150px"})])}const f=o(_,[["render",s],["__file","index.html.vue"]]);export{f as default};
